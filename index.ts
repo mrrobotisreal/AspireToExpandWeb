@@ -1,7 +1,7 @@
 import express from "express";
-import Http from "http";
-import Https from "https";
-import Fs from "fs";
+import * as Http from "http";
+import * as Https from "https";
+import * as Fs from "fs";
 
 const options = {
   cert: Fs.readFileSync("/etc/letsencrypt/live/aspirewithalina.com/fullchain.pem"),
