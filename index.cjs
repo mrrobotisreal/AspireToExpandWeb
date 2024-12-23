@@ -11,6 +11,9 @@ const app = express();
 const PORT = 443;
 
 app.use(express.static("dist"));
+app.get("*", (req, res) => {
+  res.sendFile(path.join(__dirname, "dist", "index.html"));
+});
 
 https.createServer(options, app).listen(PORT, () => {
   console.log(`Server is running securely on https://aspirewithalina.com:${PORT}`);
