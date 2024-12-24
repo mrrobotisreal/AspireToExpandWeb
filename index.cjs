@@ -2,6 +2,7 @@ const express = require("express");
 const http = require("http");
 const https = require("https");
 const fs = require("fs");
+const path = require("path");
 
 const options = {
   cert: fs.readFileSync("/etc/letsencrypt/live/aspirewithalina.com/fullchain.pem"),
