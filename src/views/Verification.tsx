@@ -37,7 +37,7 @@ const Verification: FC = () => {
       <Box>
           <img style={{ height: 400, width: 400, borderRadius: "50%" }} src={logo} className="logo" alt="AspireWithAlina logo" />
       </Box>
-      <Text variant="h2">Aspire With Alina</Text>
+      <Text variant="h2">Aspire to Expand</Text>
       <Text variant="h6">Thanks for verifying your email address! Please read the instructions below:</Text>
       <Text variant="body1" className="read-the-docs">
         We've generated a unique registration code for you. Please check your email for this code, copy the code, download the desktop app from one of the links below (depending on which operating system you have), start the app and then enter this code on the registration page. Once you've done this, it'll take you to the "Student Info Form" where you'll fill out some information about yourself and create a password for your account. After you've done this, you'll be able to log in and start using the app!
